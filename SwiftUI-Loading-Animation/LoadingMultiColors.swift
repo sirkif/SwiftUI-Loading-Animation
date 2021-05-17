@@ -1,5 +1,5 @@
 //
-//  LoadingOne.swift
+//  LoadingMultiColors.swift
 //  SwiftUI-Loading-Animation
 //
 //  Created by Adam on 5/16/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LoadingOne: View {
+struct LoadingMultiColors: View {
     
     @State private var loadingAnimation = 0
     
@@ -57,9 +57,9 @@ struct LoadingOne: View {
     }
 }
 
-struct LoadingOne_Previews: PreviewProvider {
+struct LoadingMultiColors_Previews: PreviewProvider {
     static var previews: some View {
-        LoadingOne()
+        LoadingMultiColors()
             .preferredColorScheme(.dark)
     }
 }
