@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		663C5DB7265342AA000C83DC /* LoadingOutterInner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C5DB6265342AA000C83DC /* LoadingOutterInner.swift */; };
 		664347232651BD1700A26419 /* SwiftUI_Loading_AnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664347222651BD1700A26419 /* SwiftUI_Loading_AnimationApp.swift */; };
 		664347272651BD1800A26419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664347262651BD1800A26419 /* Assets.xcassets */; };
 		6643472A2651BD1800A26419 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664347292651BD1800A26419 /* Preview Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		663C5DB6265342AA000C83DC /* LoadingOutterInner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingOutterInner.swift; sourceTree = "<group>"; };
 		6643471F2651BD1700A26419 /* SwiftUI-Loading-Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Loading-Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		664347222651BD1700A26419 /* SwiftUI_Loading_AnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Loading_AnimationApp.swift; sourceTree = "<group>"; };
 		664347262651BD1800A26419 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				664347222651BD1700A26419 /* SwiftUI_Loading_AnimationApp.swift */,
 				664347312651BD9D00A26419 /* LoadingMultiColors.swift */,
+				663C5DB6265342AA000C83DC /* LoadingOutterInner.swift */,
 				664347262651BD1800A26419 /* Assets.xcassets */,
 				6643472B2651BD1800A26419 /* Info.plist */,
 				664347282651BD1800A26419 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				663C5DB7265342AA000C83DC /* LoadingOutterInner.swift in Sources */,
 				664347322651BD9D00A26419 /* LoadingMultiColors.swift in Sources */,
 				664347232651BD1700A26419 /* SwiftUI_Loading_AnimationApp.swift in Sources */,
 			);
