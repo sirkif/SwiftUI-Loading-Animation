@@ -1,5 +1,5 @@
 //
-//  LoadingMultiColors.swift
+//  LoadingCircle.swift
 //  SwiftUI-Loading-Animation
 //
 //  Created by Adam on 5/16/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LoadingMultiColors: View {
+struct LoadingCircle: View {
     
     @State private var loadingAnimation = 0
     
@@ -57,9 +57,9 @@ struct LoadingMultiColors: View {
     }
 }
 
-struct LoadingMultiColors_Previews: PreviewProvider {
+struct LoadingCircle_Previews: PreviewProvider {
     static var previews: some View {
-        LoadingMultiColors()
+        LoadingCircle()
             .preferredColorScheme(.dark)
     }
 }
