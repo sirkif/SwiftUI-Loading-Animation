@@ -11,7 +11,8 @@
 		664347232651BD1700A26419 /* SwiftUI_Loading_AnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664347222651BD1700A26419 /* SwiftUI_Loading_AnimationApp.swift */; };
 		664347272651BD1800A26419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664347262651BD1800A26419 /* Assets.xcassets */; };
 		6643472A2651BD1800A26419 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664347292651BD1800A26419 /* Preview Assets.xcassets */; };
-		664347322651BD9D00A26419 /* LoadingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664347312651BD9D00A26419 /* LoadingCircle.swift */; };
+		664347322651BD9D00A26419 /* LoadingCircleColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664347312651BD9D00A26419 /* LoadingCircleColors.swift */; };
+		66B2FACC2655D1C300E473B9 /* LoadingCircleOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B2FACB2655D1C300E473B9 /* LoadingCircleOpacity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +22,8 @@
 		664347262651BD1800A26419 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		664347292651BD1800A26419 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6643472B2651BD1800A26419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		664347312651BD9D00A26419 /* LoadingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCircle.swift; sourceTree = "<group>"; };
+		664347312651BD9D00A26419 /* LoadingCircleColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCircleColors.swift; sourceTree = "<group>"; };
+		66B2FACB2655D1C300E473B9 /* LoadingCircleOpacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCircleOpacity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				664347222651BD1700A26419 /* SwiftUI_Loading_AnimationApp.swift */,
-				664347312651BD9D00A26419 /* LoadingCircle.swift */,
 				663C5DB6265342AA000C83DC /* LoadingCapsule.swift */,
+				664347312651BD9D00A26419 /* LoadingCircleColors.swift */,
+				66B2FACB2655D1C300E473B9 /* LoadingCircleOpacity.swift */,
 				664347262651BD1800A26419 /* Assets.xcassets */,
 				6643472B2651BD1800A26419 /* Info.plist */,
 				664347282651BD1800A26419 /* Preview Content */,
@@ -142,7 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				663C5DB7265342AA000C83DC /* LoadingCapsule.swift in Sources */,
-				664347322651BD9D00A26419 /* LoadingCircle.swift in Sources */,
+				664347322651BD9D00A26419 /* LoadingCircleColors.swift in Sources */,
+				66B2FACC2655D1C300E473B9 /* LoadingCircleOpacity.swift in Sources */,
 				664347232651BD1700A26419 /* SwiftUI_Loading_AnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
