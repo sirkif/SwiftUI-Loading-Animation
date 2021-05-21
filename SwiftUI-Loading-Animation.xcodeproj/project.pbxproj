@@ -12,6 +12,10 @@
 		664347272651BD1800A26419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664347262651BD1800A26419 /* Assets.xcassets */; };
 		6643472A2651BD1800A26419 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664347292651BD1800A26419 /* Preview Assets.xcassets */; };
 		664347322651BD9D00A26419 /* LoadingCircleColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664347312651BD9D00A26419 /* LoadingCircleColors.swift */; };
+		6682A2262657E2980095D978 /* LoadingCapsule.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6682A2252657E2980095D978 /* LoadingCapsule.gif */; };
+		6682A2282657E2A00095D978 /* LoadingCircleColors.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6682A2272657E2A00095D978 /* LoadingCircleColors.gif */; };
+		6682A22A2657E2A90095D978 /* LoadingCircleOpacity.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6682A2292657E2A90095D978 /* LoadingCircleOpacity.gif */; };
+		6682A22C2657E2EE0095D978 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6682A22B2657E2EE0095D978 /* Test.swift */; };
 		66B2FACC2655D1C300E473B9 /* LoadingCircleOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B2FACB2655D1C300E473B9 /* LoadingCircleOpacity.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,10 @@
 		664347292651BD1800A26419 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6643472B2651BD1800A26419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		664347312651BD9D00A26419 /* LoadingCircleColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCircleColors.swift; sourceTree = "<group>"; };
+		6682A2252657E2980095D978 /* LoadingCapsule.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LoadingCapsule.gif; sourceTree = "<group>"; };
+		6682A2272657E2A00095D978 /* LoadingCircleColors.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LoadingCircleColors.gif; sourceTree = "<group>"; };
+		6682A2292657E2A90095D978 /* LoadingCircleOpacity.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LoadingCircleOpacity.gif; sourceTree = "<group>"; };
+		6682A22B2657E2EE0095D978 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		66B2FACB2655D1C300E473B9 /* LoadingCircleOpacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCircleOpacity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,8 +68,12 @@
 				663C5DB6265342AA000C83DC /* LoadingCapsule.swift */,
 				664347312651BD9D00A26419 /* LoadingCircleColors.swift */,
 				66B2FACB2655D1C300E473B9 /* LoadingCircleOpacity.swift */,
+				6682A22B2657E2EE0095D978 /* Test.swift */,
 				664347262651BD1800A26419 /* Assets.xcassets */,
 				6643472B2651BD1800A26419 /* Info.plist */,
+				6682A2252657E2980095D978 /* LoadingCapsule.gif */,
+				6682A2272657E2A00095D978 /* LoadingCircleColors.gif */,
+				6682A2292657E2A90095D978 /* LoadingCircleOpacity.gif */,
 				664347282651BD1800A26419 /* Preview Content */,
 			);
 			path = "SwiftUI-Loading-Animation";
@@ -133,7 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6643472A2651BD1800A26419 /* Preview Assets.xcassets in Resources */,
+				6682A2282657E2A00095D978 /* LoadingCircleColors.gif in Resources */,
 				664347272651BD1800A26419 /* Assets.xcassets in Resources */,
+				6682A2262657E2980095D978 /* LoadingCapsule.gif in Resources */,
+				6682A22A2657E2A90095D978 /* LoadingCircleOpacity.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +161,7 @@
 			files = (
 				663C5DB7265342AA000C83DC /* LoadingCapsule.swift in Sources */,
 				664347322651BD9D00A26419 /* LoadingCircleColors.swift in Sources */,
+				6682A22C2657E2EE0095D978 /* Test.swift in Sources */,
 				66B2FACC2655D1C300E473B9 /* LoadingCircleOpacity.swift in Sources */,
 				664347232651BD1700A26419 /* SwiftUI_Loading_AnimationApp.swift in Sources */,
 			);
