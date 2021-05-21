@@ -5,7 +5,7 @@ My goal with this project is to get iOS developers to use creative Loading Anima
 
 ## Buy me a coffee, por favor ☕
 
-<a href="https://www.buymeacoffee.com/adamkif" target="_blank"><img src="https://github.com/adam-kif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/BuyMeACoffeeButton.png" alt="Buy Me A Coffee" /></a>
+<a href="https://www.buymeacoffee.com/adamkif" target="_blank"><img src="https://github.com/adam-kif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/test.png" alt="Buy Me A Coffee" /></a>
 
 
 ## Loading Capsule
