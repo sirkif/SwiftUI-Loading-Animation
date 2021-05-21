@@ -5,22 +5,22 @@ My goal with this project is to get iOS developers to use creative Loading Anima
 
 ## Buy me a coffee, por favor ☕
 
-<a href="https://www.buymeacoffee.com/adamkif" target="_blank" rel="noopener noreferrer"><img src="https://github.com/adam-kif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/BuyMeACoffee.png" alt="Buy Me A Coffee" /></a>
+<a href="https://www.buymeacoffee.com/adamkif" target="_blank" rel="noopener noreferrer"><img src="https://github.com/adam-kif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/BuyMeACoffee.png" alt="Buy Me A Coffee" /></a>
 
 
 ## Loading Capsule
 
-![Loading Capsule](https://github.com/adam-kif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/LoadingCapsule.gif)
+![Loading Capsule](https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCapsule.gif)
 
 
 ## Loading Circle Colors
 
-![Loading Circle Colors](https://github.com/adam-kif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/LoadingCircleColors.gif)
+![Loading Circle Colors](https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleColors.gif)
 
 
 ## Loading Circle Opacity
 
-![Loading Circle Opacity](https://github.com/adam-kif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/LoadingCircleOpacity.gif)
+![Loading Circle Opacity](https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleOpacity.gif)
 
 
 ## Contributing
