@@ -1,11 +1,11 @@
 # SwiftUI Loading Animation
 
-My goal with this project is to get iOS developers to use creative Loading Animation without building it from scratch.
+My goal with this project is to get iOS developers to use creative Loading Animation without building them from scratch. 100% SwiftUI NO External Packages.
 
 
 ## Buy me a coffee, por favor ☕
 
-<a href="https://www.buymeacoffee.com/adamkif" target="_blank"><img src="https://github.com/adam-kif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/test.png" alt="Buy Me A Coffee" /></a>
+<a href="https://www.buymeacoffee.com/adamkif" target="_blank" rel="noopener noreferrer"><img src="https://github.com/adam-kif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/BuyMeACoffee.png" alt="Buy Me A Coffee" /></a>
 
 
 ## Loading Capsule
@@ -21,3 +21,9 @@ My goal with this project is to get iOS developers to use creative Loading Anima
 ## Loading Circle Opacity
 
 ![Loading Circle Opacity](https://github.com/adam-kif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/LoadingCircleOpacity.gif)
+
+
+## Contributing
+
+Contributions are always welcome!
+
