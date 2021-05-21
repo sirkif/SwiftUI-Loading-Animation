@@ -70,10 +70,7 @@
 				66B2FACB2655D1C300E473B9 /* LoadingCircleOpacity.swift */,
 				664347262651BD1800A26419 /* Assets.xcassets */,
 				6643472B2651BD1800A26419 /* Info.plist */,
-				6682A2252657E2980095D978 /* LoadingCapsule.gif */,
-				6682A2272657E2A00095D978 /* LoadingCircleColors.gif */,
-				6682A2292657E2A90095D978 /* LoadingCircleOpacity.gif */,
-				661933A926581FD900098AAD /* BuyMeACoffee.png */,
+				66C9CC5E265845F900A22B69 /* Screenshot */,
 				664347282651BD1800A26419 /* Preview Content */,
 			);
 			path = "SwiftUI-Loading-Animation";
@@ -85,6 +82,17 @@
 				664347292651BD1800A26419 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66C9CC5E265845F900A22B69 /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				6682A2252657E2980095D978 /* LoadingCapsule.gif */,
+				6682A2272657E2A00095D978 /* LoadingCircleColors.gif */,
+				6682A2292657E2A90095D978 /* LoadingCircleOpacity.gif */,
+				661933A926581FD900098AAD /* BuyMeACoffee.png */,
+			);
+			path = Screenshot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
