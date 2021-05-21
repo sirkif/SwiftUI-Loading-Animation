@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		661933A626581E0900098AAD /* BuyMeACoffeeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 661933A526581E0900098AAD /* BuyMeACoffeeButton.png */; };
+		661933A826581EED00098AAD /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 661933A726581EED00098AAD /* test.png */; };
 		663C5DB7265342AA000C83DC /* LoadingCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C5DB6265342AA000C83DC /* LoadingCapsule.swift */; };
 		664347232651BD1700A26419 /* SwiftUI_Loading_AnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664347222651BD1700A26419 /* SwiftUI_Loading_AnimationApp.swift */; };
 		664347272651BD1800A26419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664347262651BD1800A26419 /* Assets.xcassets */; };
@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		661933A526581E0900098AAD /* BuyMeACoffeeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BuyMeACoffeeButton.png; sourceTree = "<group>"; };
+		661933A726581EED00098AAD /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 		663C5DB6265342AA000C83DC /* LoadingCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCapsule.swift; sourceTree = "<group>"; };
 		6643471F2651BD1700A26419 /* SwiftUI-Loading-Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Loading-Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		664347222651BD1700A26419 /* SwiftUI_Loading_AnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Loading_AnimationApp.swift; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 				6682A2252657E2980095D978 /* LoadingCapsule.gif */,
 				6682A2272657E2A00095D978 /* LoadingCircleColors.gif */,
 				6682A2292657E2A90095D978 /* LoadingCircleOpacity.gif */,
-				661933A526581E0900098AAD /* BuyMeACoffeeButton.png */,
+				661933A726581EED00098AAD /* test.png */,
 				664347282651BD1800A26419 /* Preview Content */,
 			);
 			path = "SwiftUI-Loading-Animation";
@@ -144,8 +144,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				661933A626581E0900098AAD /* BuyMeACoffeeButton.png in Resources */,
 				6643472A2651BD1800A26419 /* Preview Assets.xcassets in Resources */,
+				661933A826581EED00098AAD /* test.png in Resources */,
 				6682A2282657E2A00095D978 /* LoadingCircleColors.gif in Resources */,
 				664347272651BD1800A26419 /* Assets.xcassets in Resources */,
 				6682A2262657E2980095D978 /* LoadingCapsule.gif in Resources */,
