@@ -21,3 +21,9 @@ My goal with this project is to get iOS developers to use creative Loading Anima
 ## Loading Circle Opacity
 
 ![Loading Circle Opacity](https://github.com/adam-kif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/LoadingCircleOpacity.gif)
+
+
+## Contributing
+
+Contributions are always welcome!
+
