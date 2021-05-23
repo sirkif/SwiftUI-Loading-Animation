@@ -3,7 +3,7 @@
 My goal with this project is to get iOS developers to use creative Loading Animation without building them from scratch.<strong> 100% SwiftUI NO External Packages</strong>.
 
 
-## Your coffee allows me to excel, Muchas gracias ☕
+## Your coffee allows me to excel, gracias ☕
 
 <a href="https://www.buymeacoffee.com/adamkif" target="_blank" rel="noopener noreferrer"><img src="https://github.com/adam-kif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/BuyMeACoffee.png" alt="Buy Me A Coffee" /></a>
 
