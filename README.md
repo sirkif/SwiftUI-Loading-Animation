@@ -1,6 +1,6 @@
 # SwiftUI Loading Animation
 
-My goal with this project is to get iOS developers to use creative Loading Animation without building them from scratch.<strong> 100% SwiftUI NO External Packages</strong>.
+<strong>My goal</strong> with this project is to get iOS developers to use creative Loading Animation <strong>without</strong> building them from scratch. 💯 <strong>SwiftUI NO</strong> External Packages.
 
 
 ## Your coffee allows me to excel, Gracias ☕
