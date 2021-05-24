@@ -38,10 +38,9 @@ struct LoadingCircleFlip: View {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                     flipAnimation.toggle()
                 }
-                
             }
             //MARK: - To fire Timer immediately
-//            .fire()
+            // .fire()
         }
     }
 }

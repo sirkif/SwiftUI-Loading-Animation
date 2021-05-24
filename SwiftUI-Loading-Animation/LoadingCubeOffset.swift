@@ -51,7 +51,7 @@ struct LoadingCubeOffset: View {
                 offsetAnimation()
             }
             //MARK: - To fire Timer immediately
-//            .fire()
+            // .fire()
         }
     }
     

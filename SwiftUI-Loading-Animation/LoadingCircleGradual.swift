@@ -12,6 +12,7 @@ struct LoadingCircleGradual: View {
     @State private var gradualAnimation = false
     
     var body: some View {
+        
         ZStack{
             
             Circle()
@@ -61,8 +62,8 @@ struct LoadingCircleGradual: View {
                 .foregroundColor(Color(#colorLiteral(red: 1, green: 0.9607843137, blue: 0.6705882353, alpha: 1)))
                 .opacity(gradualAnimation ? 0.5 : 1)
                 .scaleEffect(gradualAnimation ? 0.5 : 1)
-                .offset(x: gradualAnimation ? 0 : 55)
-                .rotationEffect(.degrees(135))
+                .offset(y: gradualAnimation ? 0 : 55)
+                .rotationEffect(.degrees(45))
                 .animation(.easeOut(duration: 0.25).delay(1.25))
             
             Circle()
@@ -78,8 +79,8 @@ struct LoadingCircleGradual: View {
                 .foregroundColor(Color(#colorLiteral(red: 1, green: 0.9607843137, blue: 0.6705882353, alpha: 1)))
                 .opacity(gradualAnimation ? 0.5 : 1)
                 .scaleEffect(gradualAnimation ? 0.5 : 1)
-                .offset(x: gradualAnimation ? 0 : 55)
-                .rotationEffect(.degrees(-135))
+                .offset(y: gradualAnimation ? 0 : -55)
+                .rotationEffect(.degrees(-45))
                 .animation(.easeOut(duration: 0.25).delay(1.75))
             
             Circle()
@@ -98,7 +99,7 @@ struct LoadingCircleGradual: View {
                 }
             }
             //MARK: - To fire Timer immediately
-//            .fire()
+            // .fire()
         }
     }
 }

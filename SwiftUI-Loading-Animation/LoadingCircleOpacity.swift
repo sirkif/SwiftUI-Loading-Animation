@@ -12,6 +12,7 @@ struct LoadingCircleOpacity: View {
     @State private var loadingAnimation = 0
 
     var body: some View {
+        
         ZStack{
             
             //MARK: - First Animation
@@ -20,7 +21,8 @@ struct LoadingCircleOpacity: View {
                 Circle()
                     .frame(width: 10, height: 10, alignment: .center)
                     .foregroundColor(Color(#colorLiteral(red: 1, green: 0.9607843137, blue: 0.6705882353, alpha: 1)).opacity(0.15))
-                    .offset(x: loadingAnimation == 360 ?  40 : 0, y: loadingAnimation == 360 ? -40 : 0)
+                    .offset(x: loadingAnimation == 360 ? 55 : 0)
+                    .rotationEffect(.degrees(-45))
                 
                 Circle()
                     .frame(width: 13, height: 13, alignment: .center)
@@ -30,7 +32,8 @@ struct LoadingCircleOpacity: View {
                 Circle()
                     .frame(width: 16, height: 16, alignment: .center)
                     .foregroundColor(Color(#colorLiteral(red: 1, green: 0.9607843137, blue: 0.6705882353, alpha: 1)).opacity(0.3))
-                    .offset(x: loadingAnimation == 360 ? 40 : 0, y: loadingAnimation == 360 ? 40 : 0)
+                    .offset(x: loadingAnimation == 360 ? 55 : 0)
+                    .rotationEffect(.degrees(45))
                 
                 Circle()
                     .frame(width: 19, height: 19, alignment: .center)
@@ -40,7 +43,8 @@ struct LoadingCircleOpacity: View {
                 Circle()
                     .frame(width: 21, height: 21, alignment: .center)
                     .foregroundColor(Color(#colorLiteral(red: 1, green: 0.9607843137, blue: 0.6705882353, alpha: 1)).opacity(0.5))
-                    .offset(x: loadingAnimation == 360 ? -40 : 0, y: loadingAnimation == 360 ? 40 : 0)
+                    .offset(y: loadingAnimation == 360 ? 55 : 0)
+                    .rotationEffect(.degrees(45))
                 
                 Circle()
                     .frame(width: 24, height: 24, alignment: .center)
@@ -50,7 +54,8 @@ struct LoadingCircleOpacity: View {
                 Circle()
                     .frame(width: 27, height: 27, alignment: .center)
                     .foregroundColor(Color(#colorLiteral(red: 1, green: 0.9607843137, blue: 0.6705882353, alpha: 1)).opacity(0.8))
-                    .offset(x: loadingAnimation == 360 ? -40 : 0, y: loadingAnimation == 360 ? -40 : 0)
+                    .offset(y: loadingAnimation == 360 ? -55 : 0)
+                    .rotationEffect(.degrees(-45))
                 
                 Circle()
                     .frame(width: 30, height: 30, alignment: .center)
@@ -67,7 +72,8 @@ struct LoadingCircleOpacity: View {
                 Circle()
                     .frame(width: 10, height: 10, alignment: .center)
                     .foregroundColor(Color(#colorLiteral(red: 1, green: 0.9607843137, blue: 0.6705882353, alpha: 1)).opacity(0.15))
-                    .offset(x: 40, y: -40)
+                    .offset(x: 55)
+                    .rotationEffect(.degrees(-45))
                 
                 Circle()
                     .frame(width: 13, height: 13, alignment: .center)
@@ -77,7 +83,8 @@ struct LoadingCircleOpacity: View {
                 Circle()
                     .frame(width: 16, height: 16, alignment: .center)
                     .foregroundColor(Color(#colorLiteral(red: 1, green: 0.9607843137, blue: 0.6705882353, alpha: 1)).opacity(0.3))
-                    .offset(x: 40, y: 40)
+                    .offset(x: 55)
+                    .rotationEffect(.degrees(45))
                 
                 Circle()
                     .frame(width: 19, height: 19, alignment: .center)
@@ -87,7 +94,8 @@ struct LoadingCircleOpacity: View {
                 Circle()
                     .frame(width: 21, height: 21, alignment: .center)
                     .foregroundColor(Color(#colorLiteral(red: 1, green: 0.9607843137, blue: 0.6705882353, alpha: 1)).opacity(0.5))
-                    .offset(x: -40, y: 40)
+                    .offset(y: 55)
+                    .rotationEffect(.degrees(45))
                 
                 Circle()
                     .frame(width: 24, height: 24, alignment: .center)
@@ -97,7 +105,8 @@ struct LoadingCircleOpacity: View {
                 Circle()
                     .frame(width: 27, height: 27, alignment: .center)
                     .foregroundColor(Color(#colorLiteral(red: 1, green: 0.9607843137, blue: 0.6705882353, alpha: 1)).opacity(0.8))
-                    .offset(x: -40, y: -40)
+                    .offset(y: -55)
+                    .rotationEffect(.degrees(-45))
                 
                 Circle()
                     .frame(width: 30, height: 30, alignment: .center)
