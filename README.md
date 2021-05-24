@@ -26,13 +26,13 @@
 
 ![Loading Circle Opacity](https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCubeOffset.gif)
 
-## Loading Circle Gradual
-
-![Loading Circle Opacity](https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleGradual.gif)
-
 ## Loading Circle flip
 
 ![Loading Circle Opacity](https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleFlip.gif)
+
+## Loading Circle Gradual
+
+![Loading Circle Opacity](https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleGradual.gif)
 
 ## Contributing
 
