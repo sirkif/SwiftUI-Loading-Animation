@@ -107,7 +107,6 @@ struct LoadingCubeOffset: View {
             }
         }
     }
-    
 }
 
 struct LoadingCubeOffset_Previews: PreviewProvider {
