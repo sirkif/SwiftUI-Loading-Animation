@@ -28,7 +28,7 @@
 
 ## Loading Circle Gradual
 
-![Loading Circle Opacity](https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleGradual.gif)
+![Loading Circle Opacity](https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/tes.gif)
 
 ## Loading Circle flip
 
