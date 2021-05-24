@@ -30,6 +30,10 @@
 
 ![Loading Circle Opacity](https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleGradual.gif)
 
+## Loading Circle flip
+
+![Loading Circle Opacity](https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleFlip.gif)
+
 ## Contributing
 
 Contributions are always welcome!
