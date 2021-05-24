@@ -8,9 +8,9 @@
 <a href="https://www.buymeacoffee.com/adamkif" target="_blank" rel="noopener noreferrer"><img src="https://github.com/adam-kif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/BuyMeACoffee.png" alt="Buy Me A Coffee" /></a>
 
 
-## Loading Capsule
+## Loading Capsule Spacing
 
-![Loading Capsule](https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCapsule.gif)
+![Loading Capsule](https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCapsuleSpacing.gif)
 
 
 ## Loading Circle Colors
@@ -22,6 +22,13 @@
 
 ![Loading Circle Opacity](https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleOpacity.gif)
 
+## Loading Cube Offset
+
+![Loading Circle Opacity](https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCubeOffset.gif)
+
+## Loading Circle Gradual
+
+![Loading Circle Opacity](https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleGradual.gif)
 
 ## Contributing
 
