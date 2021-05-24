@@ -14,6 +14,7 @@ struct LoadingCircleOpacity: View {
     var body: some View {
         ZStack{
             
+            //MARK: - First Animation
             ZStack{
                 
                 Circle()
@@ -60,7 +61,7 @@ struct LoadingCircleOpacity: View {
             .opacity( loadingAnimation == 360 ? 0 : 1)
             .animation(.linear(duration: 1.8).repeatCount(1).delay(1.6))
          
-            
+            //MARK: - Second Animation
             ZStack{
                 
                 Circle()

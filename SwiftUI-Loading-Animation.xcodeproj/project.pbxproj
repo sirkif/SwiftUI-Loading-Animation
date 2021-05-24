@@ -8,29 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		661933AA26581FD900098AAD /* BuyMeACoffee.png in Resources */ = {isa = PBXBuildFile; fileRef = 661933A926581FD900098AAD /* BuyMeACoffee.png */; };
-		663C5DB7265342AA000C83DC /* LoadingCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C5DB6265342AA000C83DC /* LoadingCapsule.swift */; };
+		66287DFB2659222300462AC2 /* LoadingCubeOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66287DFA2659222300462AC2 /* LoadingCubeOffset.swift */; };
+		663C5DB7265342AA000C83DC /* LoadingCapsuleSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C5DB6265342AA000C83DC /* LoadingCapsuleSpacing.swift */; };
 		664347232651BD1700A26419 /* SwiftUI_Loading_AnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664347222651BD1700A26419 /* SwiftUI_Loading_AnimationApp.swift */; };
 		664347272651BD1800A26419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664347262651BD1800A26419 /* Assets.xcassets */; };
 		6643472A2651BD1800A26419 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664347292651BD1800A26419 /* Preview Assets.xcassets */; };
 		664347322651BD9D00A26419 /* LoadingCircleColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664347312651BD9D00A26419 /* LoadingCircleColors.swift */; };
+		667E0BCC265B0BC50002CE17 /* LoadingCircleGradual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667E0BCB265B0BC50002CE17 /* LoadingCircleGradual.swift */; };
 		6682A2262657E2980095D978 /* LoadingCapsule.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6682A2252657E2980095D978 /* LoadingCapsule.gif */; };
 		6682A2282657E2A00095D978 /* LoadingCircleColors.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6682A2272657E2A00095D978 /* LoadingCircleColors.gif */; };
 		6682A22A2657E2A90095D978 /* LoadingCircleOpacity.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6682A2292657E2A90095D978 /* LoadingCircleOpacity.gif */; };
+		66870E95265BC2D2004D69BB /* LoadingCircleFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66870E94265BC2D2004D69BB /* LoadingCircleFlip.swift */; };
 		66B2FACC2655D1C300E473B9 /* LoadingCircleOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B2FACB2655D1C300E473B9 /* LoadingCircleOpacity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		661933A926581FD900098AAD /* BuyMeACoffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BuyMeACoffee.png; sourceTree = "<group>"; };
-		663C5DB6265342AA000C83DC /* LoadingCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCapsule.swift; sourceTree = "<group>"; };
+		66287DFA2659222300462AC2 /* LoadingCubeOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCubeOffset.swift; sourceTree = "<group>"; };
+		663C5DB6265342AA000C83DC /* LoadingCapsuleSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCapsuleSpacing.swift; sourceTree = "<group>"; };
 		6643471F2651BD1700A26419 /* SwiftUI-Loading-Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Loading-Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		664347222651BD1700A26419 /* SwiftUI_Loading_AnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Loading_AnimationApp.swift; sourceTree = "<group>"; };
 		664347262651BD1800A26419 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		664347292651BD1800A26419 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6643472B2651BD1800A26419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		664347312651BD9D00A26419 /* LoadingCircleColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCircleColors.swift; sourceTree = "<group>"; };
+		667E0BCB265B0BC50002CE17 /* LoadingCircleGradual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCircleGradual.swift; sourceTree = "<group>"; };
 		6682A2252657E2980095D978 /* LoadingCapsule.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LoadingCapsule.gif; sourceTree = "<group>"; };
 		6682A2272657E2A00095D978 /* LoadingCircleColors.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LoadingCircleColors.gif; sourceTree = "<group>"; };
 		6682A2292657E2A90095D978 /* LoadingCircleOpacity.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LoadingCircleOpacity.gif; sourceTree = "<group>"; };
+		66870E94265BC2D2004D69BB /* LoadingCircleFlip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCircleFlip.swift; sourceTree = "<group>"; };
 		66B2FACB2655D1C300E473B9 /* LoadingCircleOpacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCircleOpacity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,9 +71,12 @@
 			isa = PBXGroup;
 			children = (
 				664347222651BD1700A26419 /* SwiftUI_Loading_AnimationApp.swift */,
-				663C5DB6265342AA000C83DC /* LoadingCapsule.swift */,
+				663C5DB6265342AA000C83DC /* LoadingCapsuleSpacing.swift */,
 				664347312651BD9D00A26419 /* LoadingCircleColors.swift */,
 				66B2FACB2655D1C300E473B9 /* LoadingCircleOpacity.swift */,
+				66287DFA2659222300462AC2 /* LoadingCubeOffset.swift */,
+				667E0BCB265B0BC50002CE17 /* LoadingCircleGradual.swift */,
+				66870E94265BC2D2004D69BB /* LoadingCircleFlip.swift */,
 				664347262651BD1800A26419 /* Assets.xcassets */,
 				6643472B2651BD1800A26419 /* Info.plist */,
 				66C9CC5E265845F900A22B69 /* Screenshot */,
@@ -168,10 +177,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				663C5DB7265342AA000C83DC /* LoadingCapsule.swift in Sources */,
+				66870E95265BC2D2004D69BB /* LoadingCircleFlip.swift in Sources */,
+				663C5DB7265342AA000C83DC /* LoadingCapsuleSpacing.swift in Sources */,
 				664347322651BD9D00A26419 /* LoadingCircleColors.swift in Sources */,
+				66287DFB2659222300462AC2 /* LoadingCubeOffset.swift in Sources */,
 				66B2FACC2655D1C300E473B9 /* LoadingCircleOpacity.swift in Sources */,
 				664347232651BD1700A26419 /* SwiftUI_Loading_AnimationApp.swift in Sources */,
+				667E0BCC265B0BC50002CE17 /* LoadingCircleGradual.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

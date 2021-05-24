@@ -11,9 +11,12 @@ import SwiftUI
 struct SwiftUI_Loading_AnimationApp: App {
     var body: some Scene {
         WindowGroup {
-         // LoadingCapsule()
-            LoadingCircleColors()
+         // LoadingCapsuleSpacing()
+         // LoadingCircleColors()
          // LoadingCircleOpacity()
+            LoadingCubeOffset()
+//            LoadingCircleFlip()
+//            LoadingCircleGradual()
         }
     }
 }
