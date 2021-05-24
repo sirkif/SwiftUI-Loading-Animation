@@ -21,8 +21,8 @@
 		66870E95265BC2D2004D69BB /* LoadingCircleFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66870E94265BC2D2004D69BB /* LoadingCircleFlip.swift */; };
 		66B2FACC2655D1C300E473B9 /* LoadingCircleOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B2FACB2655D1C300E473B9 /* LoadingCircleOpacity.swift */; };
 		66BBBA5B265C3E2A001CF27E /* LoadingCubeOffset.gif in Resources */ = {isa = PBXBuildFile; fileRef = 66BBBA5A265C3E2A001CF27E /* LoadingCubeOffset.gif */; };
-		66BBBA5D265C3E32001CF27E /* LoadingCircleGradual.gif in Resources */ = {isa = PBXBuildFile; fileRef = 66BBBA5C265C3E32001CF27E /* LoadingCircleGradual.gif */; };
 		66BBBA5F265C3E3B001CF27E /* LoadingCircleFlip.gif in Resources */ = {isa = PBXBuildFile; fileRef = 66BBBA5E265C3E3B001CF27E /* LoadingCircleFlip.gif */; };
+		66BBBA61265C410E001CF27E /* LoadingCircleGradual.gif in Resources */ = {isa = PBXBuildFile; fileRef = 66BBBA60265C410E001CF27E /* LoadingCircleGradual.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,8 +42,8 @@
 		66870E94265BC2D2004D69BB /* LoadingCircleFlip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCircleFlip.swift; sourceTree = "<group>"; };
 		66B2FACB2655D1C300E473B9 /* LoadingCircleOpacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCircleOpacity.swift; sourceTree = "<group>"; };
 		66BBBA5A265C3E2A001CF27E /* LoadingCubeOffset.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LoadingCubeOffset.gif; sourceTree = "<group>"; };
-		66BBBA5C265C3E32001CF27E /* LoadingCircleGradual.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LoadingCircleGradual.gif; sourceTree = "<group>"; };
 		66BBBA5E265C3E3B001CF27E /* LoadingCircleFlip.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LoadingCircleFlip.gif; sourceTree = "<group>"; };
+		66BBBA60265C410E001CF27E /* LoadingCircleGradual.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LoadingCircleGradual.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 				6682A2272657E2A00095D978 /* LoadingCircleColors.gif */,
 				6682A2292657E2A90095D978 /* LoadingCircleOpacity.gif */,
 				66BBBA5A265C3E2A001CF27E /* LoadingCubeOffset.gif */,
-				66BBBA5C265C3E32001CF27E /* LoadingCircleGradual.gif */,
+				66BBBA60265C410E001CF27E /* LoadingCircleGradual.gif */,
 				66BBBA5E265C3E3B001CF27E /* LoadingCircleFlip.gif */,
 				661933A926581FD900098AAD /* BuyMeACoffee.png */,
 			);
@@ -175,10 +175,10 @@
 				66BBBA5F265C3E3B001CF27E /* LoadingCircleFlip.gif in Resources */,
 				66BBBA5B265C3E2A001CF27E /* LoadingCubeOffset.gif in Resources */,
 				664347272651BD1800A26419 /* Assets.xcassets in Resources */,
-				66BBBA5D265C3E32001CF27E /* LoadingCircleGradual.gif in Resources */,
 				6682A2262657E2980095D978 /* LoadingCapsuleSpacing.gif in Resources */,
 				661933AA26581FD900098AAD /* BuyMeACoffee.png in Resources */,
 				6682A22A2657E2A90095D978 /* LoadingCircleOpacity.gif in Resources */,
+				66BBBA61265C410E001CF27E /* LoadingCircleGradual.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
