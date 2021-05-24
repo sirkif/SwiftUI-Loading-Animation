@@ -14,9 +14,9 @@ struct SwiftUI_Loading_AnimationApp: App {
          // LoadingCapsuleSpacing()
          // LoadingCircleColors()
          // LoadingCircleOpacity()
-            LoadingCubeOffset()
-//            LoadingCircleFlip()
-//            LoadingCircleGradual()
+         // LoadingCubeOffset()
+         // LoadingCircleFlip()
+            LoadingCircleGradual()
         }
     }
 }
