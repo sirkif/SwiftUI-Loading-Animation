@@ -2,6 +2,7 @@
 
 <strong>My goal</strong> with this project is to get iOS developers to use <strong>Creative Loading Animation</strong> without building them from scratch. 💯 <strong>SwiftUI NO</strong> External Packages.
 
+<style>H2{color:DarkOrange;}</style>
 
 ## Your coffee allows me to excel, Gracias ☕
 
