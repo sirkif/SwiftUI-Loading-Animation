@@ -30,7 +30,6 @@ struct LoadingCircleFlip: View {
             
         }//End of ZStack
         .onAppear(){
-            
             Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { _ in
                 flipAnimation = flipAnimation == 25 ? -25 : 25
             }
