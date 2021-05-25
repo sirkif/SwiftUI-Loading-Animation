@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		661933AA26581FD900098AAD /* BuyMeACoffee.png in Resources */ = {isa = PBXBuildFile; fileRef = 661933A926581FD900098AAD /* BuyMeACoffee.png */; };
+		661CDAA0265D6152006CB3FD /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661CDA9F265D6152006CB3FD /* TestFile.swift */; };
 		66287DFB2659222300462AC2 /* LoadingCubeOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66287DFA2659222300462AC2 /* LoadingCubeOffset.swift */; };
 		663C5DB7265342AA000C83DC /* LoadingCapsuleSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C5DB6265342AA000C83DC /* LoadingCapsuleSpacing.swift */; };
 		664347232651BD1700A26419 /* SwiftUI_Loading_AnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664347222651BD1700A26419 /* SwiftUI_Loading_AnimationApp.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		661933A926581FD900098AAD /* BuyMeACoffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BuyMeACoffee.png; sourceTree = "<group>"; };
+		661CDA9F265D6152006CB3FD /* TestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
 		66287DFA2659222300462AC2 /* LoadingCubeOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCubeOffset.swift; sourceTree = "<group>"; };
 		663C5DB6265342AA000C83DC /* LoadingCapsuleSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCapsuleSpacing.swift; sourceTree = "<group>"; };
 		6643471F2651BD1700A26419 /* SwiftUI-Loading-Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Loading-Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +62,7 @@
 		664347162651BD1600A26419 = {
 			isa = PBXGroup;
 			children = (
+				66C9CC5E265845F900A22B69 /* Screenshot */,
 				664347212651BD1700A26419 /* SwiftUI-Loading-Animation */,
 				664347202651BD1700A26419 /* Products */,
 			);
@@ -83,9 +86,9 @@
 				66287DFA2659222300462AC2 /* LoadingCubeOffset.swift */,
 				667E0BCB265B0BC50002CE17 /* LoadingCircleGradual.swift */,
 				66870E94265BC2D2004D69BB /* LoadingCircleFlip.swift */,
+				66FC7F30265DAD240071445F /* TestFile */,
 				664347262651BD1800A26419 /* Assets.xcassets */,
 				6643472B2651BD1800A26419 /* Info.plist */,
-				66C9CC5E265845F900A22B69 /* Screenshot */,
 				664347282651BD1800A26419 /* Preview Content */,
 			);
 			path = "SwiftUI-Loading-Animation";
@@ -111,6 +114,14 @@
 				661933A926581FD900098AAD /* BuyMeACoffee.png */,
 			);
 			path = Screenshot;
+			sourceTree = "<group>";
+		};
+		66FC7F30265DAD240071445F /* TestFile */ = {
+			isa = PBXGroup;
+			children = (
+				661CDA9F265D6152006CB3FD /* TestFile.swift */,
+			);
+			path = TestFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +205,7 @@
 				664347322651BD9D00A26419 /* LoadingCircleColors.swift in Sources */,
 				66287DFB2659222300462AC2 /* LoadingCubeOffset.swift in Sources */,
 				66B2FACC2655D1C300E473B9 /* LoadingCircleOpacity.swift in Sources */,
+				661CDAA0265D6152006CB3FD /* TestFile.swift in Sources */,
 				664347232651BD1700A26419 /* SwiftUI_Loading_AnimationApp.swift in Sources */,
 				667E0BCC265B0BC50002CE17 /* LoadingCircleGradual.swift in Sources */,
 			);

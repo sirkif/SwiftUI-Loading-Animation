@@ -1,16 +1,18 @@
 //
-//  LoadingCircleFlip.swift
+//  TestFile.swift
 //  SwiftUI-Loading-Animation
 //
-//  Created by Adam on 5/24/21.
+//  Created by Adam on 5/25/21.
 //
 
 import SwiftUI
 
-struct LoadingCircleFlip: View {
+struct TestFile: View {
     
     @State private var flipAnimation = 25
     
+    let timer = Timer.publish(every: 0.5, on: .current, in: .common).autoconnect()
+
     var body: some View {
         ZStack{
             
@@ -27,22 +29,16 @@ struct LoadingCircleFlip: View {
                 .offset(x: CGFloat(flipAnimation))
                 .animation(.linear(duration: 0.5))
                 .zIndex(flipAnimation == 25 ? 0 : 1)
-            
+
         }//End of ZStack
-        .onAppear(){
-            
-            Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { _ in
-                flipAnimation = flipAnimation == 25 ? -25 : 25
-            }
-            //MARK: - To fire Timer immediately
-            // .fire()
+        .onReceive(timer) { _ in
+            flipAnimation = flipAnimation == 25 ? -25 : 25
         }
     }
 }
 
-struct LoadingCircleFlip_Previews: PreviewProvider {
+struct TestFile_Previews: PreviewProvider {
     static var previews: some View {
-        LoadingCircleFlip()
-            .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
+        TestFile()
     }
 }
