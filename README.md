@@ -9,11 +9,11 @@
 
 <div style="display: flex; align-items: flex-center;">
   <div>
-     <h1>loading animation </h1>
+     <p>loading animation </p>
   <img width="460" height="300" src="http://www.fillmurray.com/460/300">
   </div>
    <div>
-     <h2>loading animation </h2>
+     <p>loading animation </p>
      <img width="460" height="300" src="http://www.fillmurray.com/460/300">
   </div>
 </div>
