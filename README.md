@@ -7,25 +7,12 @@
 
 <a href="https://www.buymeacoffee.com/adamkif" target="_blank" rel="noopener noreferrer"><img src="https://github.com/adam-kif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/BuyMeACoffee.png" alt="Buy Me A Coffee" /></a>
 
-<div align="center">
-  <img src="https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleOpacity.gif" alt="Loading Capsule Spacing">
-  <img margin-left="40px" src="https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleColors.gif" alt="Loading Capsule Spacing">
+## Loading: Circle Opacity, Circle Colors, Capsule Spacing.
+<div align="start">
+  <img src="https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleOpacity.gif" alt="Loading Circle Opacity">
+  <img margin-left="40px" src="https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleColors.gif" alt="Loading Circle Colors">
     <img src="https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCapsuleSpacing.gif" alt="Loading Capsule Spacing">
 </div>
-
-## Loading Capsule Spacing
-
-![Loading Capsule](https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCapsuleSpacing.gif)
-
-
-## Loading Circle Colors
-
-![Loading Circle Colors](https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleColors.gif)
-
-
-## Loading Circle Opacity
-
-![Loading Circle Opacity](https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleOpacity.gif)
 
 ## Loading Cube Offset
 
