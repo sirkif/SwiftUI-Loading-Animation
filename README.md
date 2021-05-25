@@ -9,7 +9,7 @@
 
 <div align="center">
   <img src="https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleOpacity.gif" alt="Loading Capsule Spacing">
-  <img style="margin-left: 10px" src="https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleColors.gif" alt="Loading Capsule Spacing">
+  <img margin-left="40px" src="https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleColors.gif" alt="Loading Capsule Spacing">
     <img src="https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCapsuleSpacing.gif" alt="Loading Capsule Spacing">
 </div>
 
