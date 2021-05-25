@@ -7,7 +7,7 @@
 
 <a href="https://www.buymeacoffee.com/adamkif" target="_blank" rel="noopener noreferrer"><img src="https://github.com/adam-kif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/BuyMeACoffee.png" alt="Buy Me A Coffee" /></a>
 
-<div align="center">
+<div style="display: flex; align-items: flex-center;">
   <div>
      <h1>loading animation </h1>
   <img width="460" height="300" src="http://www.fillmurray.com/460/300">
