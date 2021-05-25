@@ -7,10 +7,10 @@
 
 <a href="https://www.buymeacoffee.com/adamkif" target="_blank" rel="noopener noreferrer"><img src="https://github.com/adam-kif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/BuyMeACoffee.png" alt="Buy Me A Coffee" /></a>
 
-<p align="center">
+<div align="center">
   <img width="460" height="300" src="http://www.fillmurray.com/460/300">
    <img width="460" height="300" src="http://www.fillmurray.com/460/300">
-</p>
+</div>
 
 <div style="display: flex; align-items: flex-center;">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&show_icons=true&title_color=ffffff&icon_color=34abeb&text_color=daf7dc&bg_color=151515"/>
