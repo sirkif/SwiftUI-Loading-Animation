@@ -4,7 +4,7 @@
 
 <style>H2{color:DarkOrange;}</style>
 
-## Your coffee allows me to excel, Gracias ☕
+<h2> Your coffee allows me to excel, Gracias ☕ </h2>
 
 <a href="https://www.buymeacoffee.com/adamkif" target="_blank" rel="noopener noreferrer"><img src="https://github.com/adam-kif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/BuyMeACoffee.png" alt="Buy Me A Coffee" /></a>
 
