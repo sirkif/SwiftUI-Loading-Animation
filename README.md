@@ -9,9 +9,9 @@
 
 ## Loading: Circle Opacity & Circle Colors.
 <div align="center" width="100%">
- <img width="20%" src="https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleOpacity.gif" alt="Loading Circle  Opacity">
- <img width="20%" src="https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleColors.gif"  alt="Loading Circle Colors">
-  <img width="20%" src="https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCapsuleSpacing.gif" alt="Loading Capsule  Spacing">
+ <img width="30%" src="https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleOpacity.gif" alt="Loading Circle  Opacity">
+ <img width="30%" src="https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleColors.gif"  alt="Loading Circle Colors">
+  <img width="30%" src="https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCapsuleSpacing.gif" alt="Loading Capsule  Spacing">
 </div>
 
 ## Loading: Capsule Spacing & Cube Offset.
