@@ -62,8 +62,8 @@
 		664347162651BD1600A26419 = {
 			isa = PBXGroup;
 			children = (
-				66C9CC5E265845F900A22B69 /* Screenshot */,
 				664347212651BD1700A26419 /* SwiftUI-Loading-Animation */,
+				66C9CC5E265845F900A22B69 /* Screenshot */,
 				664347202651BD1700A26419 /* Products */,
 			);
 			sourceTree = "<group>";
