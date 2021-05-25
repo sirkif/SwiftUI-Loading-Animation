@@ -7,22 +7,12 @@
 
 <a href="https://www.buymeacoffee.com/adamkif" target="_blank" rel="noopener noreferrer"><img src="https://github.com/adam-kif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/BuyMeACoffee.png" alt="Buy Me A Coffee" /></a>
 
-<div style="display: flex; align-items: flex-center;">
-  <div>
-     <p>loading animation </p>
-  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
-  </div>
-   <div>
-     <p>loading animation </p>
-     <img width="460" height="300" src="http://www.fillmurray.com/460/300">
-  </div>
+<div align="center">
+  <img src="https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleOpacity.gif" alt="Loading Capsule Spacing">
+  <img src="https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCircleColors.gif" alt="Loading Capsule Spacing">
+    <img src="https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCapsuleSpacing.gif" alt="Loading Capsule Spacing">
 </div>
 
-<div style="display: flex; align-items: flex-center;">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&show_icons=true&title_color=ffffff&icon_color=34abeb&text_color=daf7dc&bg_color=151515"/>
-    <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&title_color=ffffff&icon_color=34abeb&text_color=daf7dc&bg_color=151515" />
-  </div>
-  
 ## Loading Capsule Spacing
 
 ![Loading Capsule](https://github.com/adamkif/SwiftUI-Loading-Animation/blob/main/SwiftUI-Loading-Animation/Screenshot/LoadingCapsuleSpacing.gif)
