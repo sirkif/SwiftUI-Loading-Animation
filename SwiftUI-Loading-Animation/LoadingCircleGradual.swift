@@ -9,7 +9,8 @@ import SwiftUI
 
 struct LoadingCircleGradual: View {
     
-    @State private var gradualAnimation = false
+    @State private var gradualOpacityAnimation = 1.0
+    @State private var gradualScaleAnimation: CGFloat = 1.0
     
     var body: some View {
         
@@ -18,68 +19,68 @@ struct LoadingCircleGradual: View {
             Circle()
                 .frame(width: 30, height: 30, alignment: .center)
                 .foregroundColor(Color(#colorLiteral(red: 1, green: 0.9607843137, blue: 0.6705882353, alpha: 1)))
-                .opacity(gradualAnimation ? 0.5 : 1)
-                .scaleEffect(gradualAnimation ? 0.5 : 1)
-                .offset(y: gradualAnimation ? 0 : -55)
+                .opacity(gradualOpacityAnimation)
+                .scaleEffect(gradualScaleAnimation)
+                .offset(y: gradualOpacityAnimation == 0.5 ? 0 : -55)
                 .animation(.easeOut(duration: 0.25))
             
             Circle()
                 .frame(width: 30, height: 30, alignment: .center)
                 .foregroundColor(Color(#colorLiteral(red: 1, green: 0.9607843137, blue: 0.6705882353, alpha: 1)))
-                .opacity(gradualAnimation ? 0.5 : 1)
-                .scaleEffect(gradualAnimation ? 0.5 : 1)
-                .offset(x: gradualAnimation ? 0 : 55)
+                .opacity(gradualOpacityAnimation)
+                .scaleEffect(gradualScaleAnimation)
+                .offset(x: gradualOpacityAnimation == 0.5 ? 0 : 55)
                 .rotationEffect(.degrees(-45))
                 .animation(.easeOut(duration: 0.25).delay(0.25))
             
             Circle()
                 .frame(width: 30, height: 30, alignment: .center)
                 .foregroundColor(Color(#colorLiteral(red: 1, green: 0.9607843137, blue: 0.6705882353, alpha: 1)))
-                .opacity(gradualAnimation ? 0.5 : 1)
-                .scaleEffect(gradualAnimation ? 0.5 : 1)
-                .offset(x: gradualAnimation ? 0 : 55)
+                .opacity(gradualOpacityAnimation)
+                .scaleEffect(gradualScaleAnimation)
+                .offset(x: gradualOpacityAnimation == 0.5 ? 0 : 55)
                 .animation(.easeOut(duration: 0.25).delay(0.5))
             
             Circle()
                 .frame(width: 30, height: 30, alignment: .center)
                 .foregroundColor(Color(#colorLiteral(red: 1, green: 0.9607843137, blue: 0.6705882353, alpha: 1)))
-                .opacity(gradualAnimation ? 0.5 : 1)
-                .scaleEffect(gradualAnimation ? 0.5 : 1)
-                .offset(x: gradualAnimation ? 0 : 55)
+                .opacity(gradualOpacityAnimation)
+                .scaleEffect(gradualScaleAnimation)
+                .offset(x: gradualOpacityAnimation == 0.5 ? 0 : 55)
                 .rotationEffect(.degrees(45))
                 .animation(.easeOut(duration: 0.25).delay(0.75))
             
             Circle()
                 .frame(width: 30, height: 30, alignment: .center)
                 .foregroundColor(Color(#colorLiteral(red: 1, green: 0.9607843137, blue: 0.6705882353, alpha: 1)))
-                .opacity(gradualAnimation ? 0.5 : 1)
-                .scaleEffect(gradualAnimation ? 0.5 : 1)
-                .offset(y: gradualAnimation ? 0 : 55)
+                .opacity(gradualOpacityAnimation)
+                .scaleEffect(gradualScaleAnimation)
+                .offset(y: gradualOpacityAnimation == 0.5 ? 0 : 55)
                 .animation(.linear(duration: 0.25).delay(1))
             
             Circle()
                 .frame(width: 30, height: 30, alignment: .center)
                 .foregroundColor(Color(#colorLiteral(red: 1, green: 0.9607843137, blue: 0.6705882353, alpha: 1)))
-                .opacity(gradualAnimation ? 0.5 : 1)
-                .scaleEffect(gradualAnimation ? 0.5 : 1)
-                .offset(y: gradualAnimation ? 0 : 55)
+                .opacity(gradualOpacityAnimation)
+                .scaleEffect(gradualScaleAnimation)
+                .offset(y: gradualOpacityAnimation == 0.5 ? 0 : 55)
                 .rotationEffect(.degrees(45))
                 .animation(.easeOut(duration: 0.25).delay(1.25))
             
             Circle()
                 .frame(width: 30, height: 30, alignment: .center)
                 .foregroundColor(Color(#colorLiteral(red: 1, green: 0.9607843137, blue: 0.6705882353, alpha: 1)))
-                .opacity(gradualAnimation ? 0.5 : 1)
-                .scaleEffect(gradualAnimation ? 0.5 : 1)
-                .offset(x: gradualAnimation ? 0 : -55)
+                .opacity(gradualOpacityAnimation)
+                .scaleEffect(gradualScaleAnimation)
+                .offset(x: gradualOpacityAnimation == 0.5 ? 0 : -55)
                 .animation(.easeOut(duration: 0.25).delay(1.5))
             
             Circle()
                 .frame(width: 30, height: 30, alignment: .center)
                 .foregroundColor(Color(#colorLiteral(red: 1, green: 0.9607843137, blue: 0.6705882353, alpha: 1)))
-                .opacity(gradualAnimation ? 0.5 : 1)
-                .scaleEffect(gradualAnimation ? 0.5 : 1)
-                .offset(y: gradualAnimation ? 0 : -55)
+                .opacity(gradualOpacityAnimation)
+                .scaleEffect(gradualScaleAnimation)
+                .offset(y: gradualOpacityAnimation == 0.5 ? 0 : -55)
                 .rotationEffect(.degrees(-45))
                 .animation(.easeOut(duration: 0.25).delay(1.75))
             
@@ -89,14 +90,11 @@ struct LoadingCircleGradual: View {
             
         }//End of ZStack
         .onAppear(){
-            
-            Timer.scheduledTimer(withTimeInterval: 4, repeats: true) { _ in
-                gradualAnimation.toggle()
+            Timer.scheduledTimer(withTimeInterval: 2, repeats: true) { _ in
                 
-                DispatchQueue.main.asyncAfter(deadline: .now() + 1.75) {
-                    gradualAnimation.toggle()
-                    
-                }
+                gradualOpacityAnimation = gradualOpacityAnimation == 1.0 ? 0.5 : 1
+                
+                gradualScaleAnimation = gradualScaleAnimation == 1.0 ? 0.5 : 1.0
             }
             //MARK: - To fire Timer immediately
             // .fire()
