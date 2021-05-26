@@ -34,6 +34,7 @@ struct TestFile: View {
         .onReceive(timer) { _ in
             flipAnimation = flipAnimation == 25 ? -25 : 25
         }
+        
     }
 }
 
