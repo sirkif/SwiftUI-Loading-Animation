@@ -1,20 +1,13 @@
 //
-//  LoadingCubeOffset.swift
+//  TestFile.swift
 //  SwiftUI-Loading-Animation
 //
-//  Created by Adam on 5/22/21.
+//  Created by Adam on 5/25/21.
 //
 
 import SwiftUI
 
-enum OffsetPosition {
-    case left
-    case top
-    case right
-    case bottom
-}
-
-struct LoadingCubeOffset: View {
+struct TestFile: View {
     
     @State private var yellowSquareAnimationX = CGFloat(-25)
     @State private var yellowSquareAnimationY = CGFloat(25)
@@ -27,15 +20,26 @@ struct LoadingCubeOffset: View {
     
     @State private var orangeSquareAnimationX = CGFloat(-25)
     @State private var orangeSquareAnimationY = CGFloat(-25)
-  
+    
+//    @State private var cubeOffsetAnimationX: CGFloat = 25
+//    @State private var cubeOffsetAnimationY: CGFloat = 25
+//
+//    @State private var cubeOffsetAnimationX: CGFloat = 25
+//    @State private var cubeOffsetAnimationY: CGFloat = 25
+//
+//    @State private var cubeOffsetAnimationX: CGFloat = 25
+//    @State private var cubeOffsetAnimationY: CGFloat = 25
+    
+    let timer = Timer.publish(every: 2, on: .current, in: .common).autoconnect()
+
     var body: some View {
-        
         ZStack{
             
             Color(#colorLiteral(red: 1, green: 0.7960784314, blue: 0.4666666667, alpha: 1))
                 .frame(width: 40, height: 40, alignment: .center)
                 .offset(x: yellowSquareAnimationX, y: yellowSquareAnimationY)
                 .animation(.timingCurve(0.33, 1, 0.68, 1, duration: 0.5))
+
             
             Color(#colorLiteral(red: 0.5254901961, green: 0.4784313725, blue: 0.9137254902, alpha: 1))
                 .frame(width: 40, height: 40, alignment: .center)
@@ -47,63 +51,63 @@ struct LoadingCubeOffset: View {
                 .offset(x: greenSquareAnimationX, y: greenSquareAnimationY)
                 .zIndex(1)
                 .animation(.timingCurve(0.33, 1, 0.68, 1, duration: 0.5))
-            
+
             Color(#colorLiteral(red: 0.9960784314, green: 0.4274509804, blue: 0.4509803922, alpha: 1))
                 .frame(width: 40, height: 40, alignment: .center)
                 .offset(x: orangeSquareAnimationX, y: orangeSquareAnimationY)
                 .zIndex(1)
                 .animation(.timingCurve(0.33, 1, 0.68, 1, duration: 0.5))
-            
+
+                
+
         }//End of ZStack
-        .onAppear(){
+        .onReceive(timer) { _ in
             
-            Timer.scheduledTimer(withTimeInterval: 2, repeats: true) { _ in
-                yellowSquareAnimationX = -20
-                yellowSquareAnimationY = 20
-                purpleSquareAnimationX = 20
-                purpleSquareAnimationY = -20
-                greenSquareAnimationX = 20
-                greenSquareAnimationY = 20
-                orangeSquareAnimationX = -20
-                orangeSquareAnimationY = -20
-                
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                    orangeSquareAnimationY = 20
-                    greenSquareAnimationY = -20
-                    yellowSquareAnimationX = 20
-                    purpleSquareAnimationX = -20
-                }
-                
-                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-                    orangeSquareAnimationX = 20
-                    greenSquareAnimationX = -20
-                    yellowSquareAnimationY = -20
-                    purpleSquareAnimationY = 20
-                }
-                
-                DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
-                    orangeSquareAnimationY = -20
-                    greenSquareAnimationY = 20
-                    yellowSquareAnimationX = -20
-                    purpleSquareAnimationX = 20
-                }
-                
-                DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                    orangeSquareAnimationX = -20
-                    greenSquareAnimationX = 20
-                    yellowSquareAnimationY = 20
-                    purpleSquareAnimationY = -20
-                }
+            yellowSquareAnimationX = -20
+            yellowSquareAnimationY = 20
+            purpleSquareAnimationX = 20
+            purpleSquareAnimationY = -20
+            greenSquareAnimationX = 20
+            greenSquareAnimationY = 20
+            orangeSquareAnimationX = -20
+            orangeSquareAnimationY = -20
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                orangeSquareAnimationY = 20
+                greenSquareAnimationY = -20
+                yellowSquareAnimationX = 20
+                purpleSquareAnimationX = -20
             }
-            //MARK: - To fire Timer immediately
-            // .fire()
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                orangeSquareAnimationX = 20
+                greenSquareAnimationX = -20
+                yellowSquareAnimationY = -20
+                purpleSquareAnimationY = 20
+            }
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                orangeSquareAnimationY = -20
+                greenSquareAnimationY = 20
+                yellowSquareAnimationX = -20
+                purpleSquareAnimationX = 20
+            }
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                orangeSquareAnimationX = -20
+                greenSquareAnimationX = 20
+                yellowSquareAnimationY = 20
+                purpleSquareAnimationY = -20
+            }
+            
         }
+        
     }
 }
 
-struct LoadingCubeOffset_Previews: PreviewProvider {
+struct TestFile_Previews: PreviewProvider {
     static var previews: some View {
-        LoadingCubeOffset()
+        TestFile()
             .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
     }
 }
