@@ -2,7 +2,7 @@
 
 <strong>My goal</strong> with this project is to get iOS developers to use <strong>Creative Loading Animation</strong> without building them from scratch. 💯 <strong>SwiftUI NO</strong> External Packages.
 
-## Your COFFEE allows me to excel, Gracias ☕
+## Your Coffee allows me to excel, Gracias ☕
 
 <a href="https://www.buymeacoffee.com/adamkif" target="_blank" rel="noopener noreferrer"><img src="https://github.com/adam-kif/SwiftUI-Loading-Animation/blob/main/Screenshot/BuyMeACoffee.png" alt="Buy Me A Coffee" /></a>
 
