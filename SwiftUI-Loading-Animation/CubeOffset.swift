@@ -38,13 +38,11 @@ struct CubeOffset: View {
             Color(#colorLiteral(red: 0, green: 0.7215686275, blue: 0.662745098, alpha: 1))
                 .frame(width: 40, height: 40, alignment: .center)
                 .offset(x: greenSquareAnimationX, y: greenSquareAnimationY)
-                .zIndex(1)
                 .animation(.timingCurve(0.33, 1, 0.68, 1, duration: 0.5))
             
             Color(#colorLiteral(red: 0.9960784314, green: 0.4274509804, blue: 0.4509803922, alpha: 1))
                 .frame(width: 40, height: 40, alignment: .center)
                 .offset(x: orangeSquareAnimationX, y: orangeSquareAnimationY)
-                .zIndex(1)
                 .animation(.timingCurve(0.33, 1, 0.68, 1, duration: 0.5))
             
         }//End of ZStack
