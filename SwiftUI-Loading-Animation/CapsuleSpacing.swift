@@ -1,5 +1,5 @@
 //
-//  LoadingCapsuleSpacing.swift
+//  CapsuleSpacing.swift
 //  SwiftUI-Loading-Animation
 //
 //  Created by Adam on 5/18/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LoadingCapsuleSpacing: View {
+struct CapsuleSpacing: View {
     
     @State private var spacingAnimation = false
     
@@ -42,9 +42,9 @@ struct LoadingCapsuleSpacing: View {
     }
 }
 
-struct LoadingCapsuleSpacing_Previews: PreviewProvider {
+struct CapsuleSpacing_Previews: PreviewProvider {
     static var previews: some View {
-        LoadingCapsuleSpacing()
+        CapsuleSpacing()
             .preferredColorScheme(.dark)
     }
 }

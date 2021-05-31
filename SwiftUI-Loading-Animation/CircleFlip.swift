@@ -1,5 +1,5 @@
 //
-//  LoadingCircleFlip.swift
+//  CircleFlip.swift
 //  SwiftUI-Loading-Animation
 //
 //  Created by Adam on 5/24/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LoadingCircleFlip: View {
+struct CircleFlip: View {
     
     @State private var flipAnimation = 25
     
@@ -39,9 +39,9 @@ struct LoadingCircleFlip: View {
     }
 }
 
-struct LoadingCircleFlip_Previews: PreviewProvider {
+struct CircleFlip_Previews: PreviewProvider {
     static var previews: some View {
-        LoadingCircleFlip()
+        CircleFlip()
             .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
     }
 }

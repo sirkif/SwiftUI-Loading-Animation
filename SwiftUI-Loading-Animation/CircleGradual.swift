@@ -1,5 +1,5 @@
 //
-//  LoadingCircleGradual.swift
+//  CircleGradual.swift
 //  SwiftUI-Loading-Animation
 //
 //  Created by Adam on 5/23/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LoadingCircleGradual: View {
+struct CircleGradual: View {
     
     @State private var gradualOpacityAnimation = 1.0
     @State private var gradualScaleAnimation: CGFloat = 1.0
@@ -102,9 +102,9 @@ struct LoadingCircleGradual: View {
     }
 }
 
-struct LoadingCircleGradual_Previews: PreviewProvider {
+struct CircleGradual_Previews: PreviewProvider {
     static var previews: some View {
-        LoadingCircleGradual()
+        CircleGradual()
             .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
     }
 }

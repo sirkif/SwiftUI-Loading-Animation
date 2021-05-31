@@ -1,5 +1,5 @@
 //
-//  LoadingCubeOffset.swift
+//  CubeOffset.swift
 //  SwiftUI-Loading-Animation
 //
 //  Created by Adam on 5/22/21.
@@ -7,14 +7,7 @@
 
 import SwiftUI
 
-enum OffsetPosition {
-    case left
-    case top
-    case right
-    case bottom
-}
-
-struct LoadingCubeOffset: View {
+struct CubeOffset: View {
     
     @State private var yellowSquareAnimationX = CGFloat(-25)
     @State private var yellowSquareAnimationY = CGFloat(25)
@@ -101,9 +94,9 @@ struct LoadingCubeOffset: View {
     }
 }
 
-struct LoadingCubeOffset_Previews: PreviewProvider {
+struct CubeOffset_Previews: PreviewProvider {
     static var previews: some View {
-        LoadingCubeOffset()
+        CubeOffset()
             .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
     }
 }
