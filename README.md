@@ -26,6 +26,16 @@
       alt="Circle Gradual">
 </div>
 
+## Usage
+I made the Flutter animation slower to make your eyes recognize the animation.
+
+In reality it is not. To customize the animation.
+
+✅
+- Change the duration, delay & time Interval
+- Change the size of the shape
+🚫
+- Don't touch the state ( unless you have experience in animation )
 ## Contributing
 
 Contributions are always welcome!
